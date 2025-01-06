@@ -19,6 +19,7 @@ public class B_Keyboard {
         int[] dp = new int[26];
         Arrays.fill(dp, -1);
 
+        @SuppressWarnings("unchecked")
         List<int[]>[] arr = new List[26];
         for(int i=0; i<26; i++) arr[i] = new ArrayList<>();
 
